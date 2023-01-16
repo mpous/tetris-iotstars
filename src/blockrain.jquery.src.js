@@ -17,10 +17,10 @@
       asdwKeys: true, // Enable ASDW keys
 
       // Copy
-      playText: 'Let\'s play some Tetris',
-      playButtonText: 'Play',
-      gameOverText: 'Game Over',
-      restartButtonText: 'Play Again',
+      playText: 'Let\'s play some IoT Tetris',
+      playButtonText: 'Play IoT',
+      gameOverText: 'Build your IoT again',
+      restartButtonText: 'Play IoT',
       scoreText: 'Score',
 
       // Basic Callbacks

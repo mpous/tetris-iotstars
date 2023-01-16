@@ -7,7 +7,7 @@
       height: 63px;
       padding: 0;
       position: absolute;
-      background: url(../images/slider-nav.png) no-repeat;
+      background: url(../images/slider-nav.png);
       background-size: auto 100%;
       border: none;
       top: 50%;
@@ -28,8 +28,8 @@
 }
 #example-slider {
   background: #000;
-  width: 590px;
-  height: 420px;
+  width: 1080px;
+  height: 840px;
   border-radius: 50%/5%;
   position: relative;
 
@@ -52,8 +52,8 @@
   .game {
     display: inline-block;
     margin: 0px 20px;
-    width: 200px;
-    height: 330px;
+    width: 400px;
+    height: 660px;
     position: static;
     .blockrain-score-holder {
       left: 100%;
@@ -139,7 +139,6 @@
         top: 50%;
         left: 50%;
         margin: -7px 0 0 -7px;
-        background: url(../images/icon-sprite.png) no-repeat;
         background-position: -84px 0;
         background-size: auto 100%;
       }
