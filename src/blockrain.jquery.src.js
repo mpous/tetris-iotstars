@@ -1223,7 +1223,6 @@
           '<div class="blockrain-score">'+
             '<div class="blockrain-score-msg">'+ this.options.scoreText +'</div>'+
             '<div class="blockrain-score-num">0</div>'+
-          '</div>'+
         '</div>').hide();
       game._$scoreText = game._$score.find('.blockrain-score-num');
       game._$gameholder.append(game._$score);
@@ -1234,6 +1233,7 @@
           '<div class="blockrain-start">'+
             '<div class="blockrain-start-msg">'+ this.options.playText +'</div>'+
             '<a class="blockrain-btn blockrain-start-btn">'+ this.options.playButtonText +'</a>'+
+            
           '</div>'+
         '</div>').hide();
       game._$gameholder.append(game._$start);
@@ -1248,7 +1248,8 @@
         '<div class="blockrain-game-over-holder" style="position:absolute;">'+
           '<div class="blockrain-game-over">'+
             '<div class="blockrain-game-over-msg">'+ this.options.gameOverText +'</div>'+
-            '<a class="blockrain-btn blockrain-game-over-btn">'+ this.options.restartButtonText +'</a>'+
+            '<a class="blockrain-btn blockrain-game-over-btn">'+ this.options.restartButtonText +'</a><br />'+
+            '<a href="" class="blockrain-btn blockrain-game-over-btn">'+ this.options.restartButtonText +'</a><br />'+
           '</div>'+
         '</div>').hide();
       game._$gameover.find('.blockrain-game-over-btn').click(function(event){

@@ -47,54 +47,49 @@
 </head>
 <body>
 
-
 <section id="examples">
-  <h1>IoTetris - How does your IoT stack look like?</h1>
+  <h1>How does your IoT stack look like?</h1>
   <br /><br />
   <article id="example-slider">
     <div class="example">
-      <div class="instructions" style="text-align: left;">
-        Sponsored by <br /><br />
-        <div class="keyboard">
-          <div style="text-align: left;">
-            <img src="assets/blocks/custom/earpro.png" width="25%"/>
-            <br />
-          </div>
-          <div style="text-align: left;">
-            <img src="assets/blocks/custom/iotcreators.png" width="20%"/>
-            <br />
-          </div>
-          <div style="text-align: left;">
-            <img src="assets/blocks/custom/multitech.png" width="20%"/>
-            <br />
-          </div>
-          <div style="text-align: left;">
-            <img src="assets/blocks/custom/soracom.png" width="20%"/>
-            <br />
-          </div>
-          <div style="text-align: left;">
-            <img src="assets/blocks/custom/ignion.png" width="20%"/>
-            <br />
-          </div>
-          <div style="text-align: left;">
-            <img src="assets/blocks/custom/tti.png" width="20%"/>
-            <br />
-          </div>
-          <div style="text-align: left;">
-            <img src="assets/blocks/custom/monogoto.png" width="20%"/>
-          </div>
-        </div>
-      </div>
+      
+      <!-- IoT Stars 2023-->
+
       <div class="game" id="tetris-demo"></div>
+      
     </div>
   </article>
+
+  <!-- sponsors -->
+  <p>
+    <div class="keyboard">
+      <div style="text-align: center;">
+        <img src="assets/blocks/custom/earpro.png" width="8%"/><br /><br />
+        <img src="assets/blocks/custom/iotcreators.png" width="10%"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/blocks/custom/multitech.png" width="10%"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/blocks/custom/soracom.png" width="10%"/><br />
+        <img src="assets/blocks/custom/ignion.png" width="10%"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/blocks/custom/kallipr.png" width="10%"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/blocks/custom/monogoto.png" width="10%"/>
+      </div>
+    </div>
+  </p>
+
+  <!-- buttons for mobile phones-->
+  <!--
+    <p id="controls-mobile">
+    <a href="#" class="btn-up"><img src="assets/blocks/custom/move.png"></a><br /><a href="#" class="btn-left"><img src="assets/blocks/custom/left2.png"></a><a href="#" class="btn-right"><img src="assets/blocks/custom/right2.png"></a>
+  </p>
+  --->
+
+  <!-- CTA -->
+
   <p>
     <a class="blockrain-btn blockrain-game-over-btn" href="https://www.eventbrite.es/e/iot-stars-mwc-2023-tickets-470929501817" target="_blank">Get your IoT Stars MWC 2023 tickets</a>
   </p>
-  <br /><br />
+
   <p>
     Share a screenshot of your score on the social networks to get discounts!
   </p>
+
+  <!-- Sharing on social media -->
+
   <p style="text-align: center;">
     <a href="https://twitter.com/intent/tweet?screen_name=iotstars&text=Playing%20the%20IoTetris%20before%20iotstars.com&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet the score of the game</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </p>
@@ -108,7 +103,7 @@
 <script src="src/blockrain.jquery.themes.js"></script>
 
 <script>
- 
+
   var $demo = $('#tetris-demo').blockrain({
     speed: 20,
     theme: 'custom',
